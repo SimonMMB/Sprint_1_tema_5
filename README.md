@@ -18,7 +18,7 @@ Recomendation: display de execution of the code in console.
 
 💡 NOTE
 
-This exercise could be done either by declaring an abstract class or an interface. I chose to declare an abstract class for comprehensiveness reasons: the statement says that, in addition to a method for making a sound, "animals has a name". So I understood "name" as an attribute common to all animals, and interfaces cannot contain attributes. However, alternatively, the "interface solution" would be as follow:
+This exercise could be done either by declaring an abstract class or an interface. I chose to declare an abstract class for comprehensiveness reasons: the statement says that, in addition to a method for making a sound, "animals have a name". So I understood "name" as an attribute common to all animals, and interfaces cannot contain attributes. However, alternatively, the "interface solution" would be as follow:
 
 1) Declaration of interface "Animal"
 
