@@ -6,7 +6,7 @@ declare(strict_types = 1);
 require_once 'Animal.php';
 class Cat extends Animal {
     public function makeSound() : string {
-        return "¡Miau miau! \n";
+        return "¡Guau guau! \n";
     }
 }
 $cat1 = new Cat("Pompón");

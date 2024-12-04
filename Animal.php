@@ -14,5 +14,5 @@ abstract class Animal {
     public function setName(string $name) {
         $this->name = $name;
     }
-    abstract public function makeSound();
+    abstract function makeSound();
 }
