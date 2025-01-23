@@ -1,15 +1,12 @@
 <?php
 require_once 'Shape2.php';
-class Triangle implements Shape2 {
-    private float $height;
-    private float $width;
+require_once 'Shape3.php';
 
-    public function __construct(float $height, float $width) {
-        $this->height = $height;
-        $this->width = $width;
-    }
-    public function calculateArea() : float {
-        $area = $this->height * $this->width / 2;
+class Triangle extends Shape2 implements Shape3 
+{
+    public function calculateArea() : float 
+    {
+        $area = parent::$height * parent::$width / 2;
         return $area;
     }
 }

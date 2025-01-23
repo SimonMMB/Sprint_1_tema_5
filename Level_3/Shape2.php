@@ -1,5 +1,12 @@
 <?php
-interface Shape2 {
-    public function calculateArea() : float;
+abstract class Shape2 
+{
+    protected float $height;
+    protected float $width;
+
+    public function __construct(float $height, float $width) 
+    {
+        $this->height = $height;
+        $this->width = $width;
+    }
 }
-?>
